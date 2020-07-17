@@ -1,0 +1,21 @@
+{
+  "development": {
+    "url": "postgres://eklxosgv:FPXVYMc2tm4aMC66RXRDCtBDUuVpm7I5@balarama.db.elephantsql.com:5432/eklxosgv",
+    "dialect": "postgres",
+    "operatorsAliases": "0"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
